@@ -8,3 +8,4 @@ To be able to compile and execute the application you will need to configure you
 dotnet nuget add source --username [github username] --password [personal access token] --name PicardhCisionGithub https://nuget.pkg.github.com/picardh-cision/index.json
 ```
 
+You will also need to disable the `Enable Just My Code` in the _General Debugging_ Visual Studio configuration.
